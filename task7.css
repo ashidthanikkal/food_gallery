@@ -24,15 +24,10 @@ header {
 
 main {
     background-color: rgba(0, 0, 0);
-    height: 3550px;
     width: 100%;
+    height: 800vh;
 }
 
-footer {
-    background-color: rgb(74, 71, 68);
-    height: 100px;
-    width: 100%;
-}
 
 .a {
     text-decoration: none;
@@ -114,8 +109,7 @@ footer {
 
 @keyframes flip {
 
-    0%,
-    80% {
+    0%,80% {
         transform: rotateY(360deg)
     }
 }
@@ -129,7 +123,7 @@ footer {
 
 .d6 {
     position: relative;
-    width: 100%;
+    width: 90%;
     top: 0px;
 }
 
@@ -148,6 +142,12 @@ footer {
     top: 500px;
     width: 100%;
     color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    top: 500px;
 }
 
 /* ************************************************************* */
@@ -157,7 +157,8 @@ footer {
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-    top: 2470px;
+    top: 1220px;
+    /* height:1150px ; */
 }
 
 .d {
@@ -181,14 +182,16 @@ footer {
     background-image: url(./food_img/f5.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    z-index: 2;
-
     height: 250px;
     width: 350px;
 }
 
-.d10:hover {
-    z-index: 0;
+.d10:hover .p2 {
+    background-color: #000000c0;
+    color: #ffffff;
+    display:block
+
+
 }
 
 
@@ -198,14 +201,15 @@ footer {
     background-image: url(./food_img/Burger.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    z-index: 2;
 
     height: 350px;
     width: 350px;
 }
 
-.d11:hover {
-    z-index: 0;
+.d11:hover .p3 {
+    background-color: #000000c0;
+    color: #ffffff;
+    display:block
 }
 
 .d13 {
@@ -214,7 +218,6 @@ footer {
     background-image: url(./food_img/steak1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    z-index: 2;
 
     height: 350px;
     width: 350px;
@@ -222,25 +225,28 @@ footer {
 
 }
 
-.d13:hover {
-    z-index: 0;
+.d13:hover .p4 {
+    background-color: #000000c0;
+    color: #ffffff;
+    display:block
 }
 
 .d14 {
     /* background-color: blue; */
     position: relative;
-    background-image: url(./food_img/f6\ \(2\).jpg);
+    background-image: url(./food_img/f6.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    z-index: 2;
 
     height: 250px;
     width: 350px;
     bottom: 30px;
 }
 
-.d14:hover {
-    z-index: 0;
+.d14:hover .p5 {
+    background-color: #000000c0;
+    color: #ffffff;
+    display:block
 }
 
 
@@ -250,7 +256,6 @@ footer {
     background-image: url(./food_img/f4.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    z-index: 2;
 
     height: 250px;
     width: 350px;
@@ -258,8 +263,10 @@ footer {
 
 }
 
-.d16:hover {
-    z-index: 0;
+.d16:hover .p6 {
+    background-color: #000000c0;
+    color: #ffffff;
+    display:block
 }
 
 .d17 {
@@ -268,15 +275,16 @@ footer {
     background-image: url(./food_img/biriyani.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
-    z-index: 2;
 
     height: 350px;
     width: 350px;
     bottom: 30px;
 }
 
-.d17:hover {
-    z-index: 0;
+.d17:hover .p7{
+    background-color: #000000c0;
+    color: #ffffff;
+    display:block
 }
 
 
@@ -286,7 +294,6 @@ footer {
     background-image: url(./food_img/f7.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    z-index: 2;
 
     height: 350px;
     width: 350px;
@@ -294,8 +301,10 @@ footer {
 
 }
 
-.d19:hover {
-    z-index: 0;
+.d19:hover .p8{
+    background-color: #000000c0;
+    color: #ffffff;
+    display:block
 }
 
 .d20 {
@@ -304,143 +313,24 @@ footer {
     background-image: url(./food_img/f8.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    z-index: 2;
 
     height: 250px;
     width: 350px;
     bottom: 30px;
 }
 
-.d20:hover {
-    z-index: 0;
-}
-
-
-/* ***********************for text********************* */
-.dr2 {
-    margin-top: 20px;
-    border-radius: 30px;
-
-}
-
-.d21 {
-    position: relative;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: center;
-    top: 1800px;
-}
-
-.d22 {
-    position: relative;
-    /* background-color: white; */
-    /* height: 670px;
-    width: 350px; */
-    /* top: 900px; */
-}
-
-.d23 {
-    background-color: rgba(0, 0, 0, 0.644);
+.d20:hover .p9 {
+    background-color: #000000c0;
     color: #ffffff;
-    z-index: 1;
-
-    height: 250px;
-    width: 350px;
+    display:block
 }
 
-
-.d24 {
-    background-color: rgba(0, 0, 0, 0.644);
-    color: #ffffff;
-    z-index: 1;
-
-
-    height: 350px;
-    width: 350px;
-}
-
-.d26 {
-    background-color: rgba(0, 0, 0, 0.644);
-    color: #ffffff;
-    z-index: 1;
-
-
-    height: 350px;
-    width: 350px;
-    bottom: 30px;
-
-}
-
-.d27 {
-    background-color: rgba(0, 0, 0, 0.644);
-    color: #ffffff;
-    z-index: 1;
-
-
-    height: 250px;
-    width: 350px;
-    bottom: 30px;
-}
-
-.d29 {
-    background-color: rgba(0, 0, 0, 0.644);
-    color: #ffffff;
-    z-index: 1;
-
-
-    height: 250px;
-    width: 350px;
-    bottom: 30px;
-
-}
-
-.d30 {
-    background-color: rgba(0, 0, 0, 0.644);
-    color: #ffffff;
-    z-index: 1;
-
-
-    height: 350px;
-    width: 350px;
-    bottom: 30px;
-}
-
-.d32 {
-    background-color: rgba(0, 0, 0, 0.644);
-    color: #ffffff;
-    z-index: 1;
-
-
-    height: 350px;
-    width: 350px;
-    bottom: 30px;
-
-}
-
-.d33 {
-    background-color: rgba(0, 0, 0, 0.644);
-    color: #ffffff;
-    z-index: 1;
-
-
-    height: 250px;
-    width: 350px;
-    bottom: 30px;
-}
-
-@media(max-width:1400px) {
-    .dr2 {
-        display: none;
-    }
-}
-
-/* *****************text para****************** */
 .p2 {
     position: relative;
     text-align: center;
     top: 80px;
     margin: 10px;
+    display: none;
 }
 
 .p3 {
@@ -448,6 +338,8 @@ footer {
     text-align: center;
     top: 120px;
     margin: 10px;
+    display: none;
+
 }
 
 .p4 {
@@ -455,6 +347,8 @@ footer {
     text-align: center;
     top: 120px;
     margin: 10px;
+    display: none;
+
 }
 
 .p5 {
@@ -462,6 +356,8 @@ footer {
     text-align: center;
     top: 80px;
     margin: 10px;
+    display: none;
+
 }
 
 .p6 {
@@ -469,6 +365,8 @@ footer {
     text-align: center;
     top: 80px;
     margin: 10px;
+    display: none;
+
 }
 
 .p7 {
@@ -476,6 +374,8 @@ footer {
     text-align: center;
     top: 120px;
     margin: 10px;
+    display: none;
+
 }
 
 .p8{
@@ -483,6 +383,8 @@ footer {
     text-align: center;
     top: 120px;
     margin: 10px;
+    display: none;
+
 }
 
 .p9 {
@@ -490,219 +392,152 @@ footer {
     text-align: center;
     top: 80px;
     margin: 10px;
+    display: none;
+
 }
 .a3{
-    top: 2400px;
+    top:1150px;
     text-align: center;
     position: relative;
     color: #ffffff;
 }
 
-/* ********************footer***************************** */
+/* ############################### Dine In ############################################## */
 
-.foot {
-    position: absolute;
-    margin-top: 0px;
-    background-color: rgb(181 177 172);
-    width: 100%;
-    height: 260px;
-
-}
-.f1{
-    position: relative;
-    flex-wrap: wrap;
-    display: flex;
-    width: 350px;
-    height: 150px;
-    text-align: center;
-    left: 100px;
-    top: 30px;
-}
-.abt{
-    position: relative;
-    top: 0px;
-    left: 150px;
-}
-.abtp{
-    position: relative;
-    top: 23px;
-}
-.f2{
-    display: flex;
-    position: relative;
-    flex-wrap: wrap;
-    width:350px;
-    height: 150px;
-    text-align: center;
-    left: 600px;
-    top: -80px;
-}
-.fls{
-    position: relative;
-    top: -40px;
-    left: 115px;
-}
-.f3{
-    display: flex;
-    position: relative;
-    flex-wrap: wrap;
-    width:180px;
-    height: 150px;
-    text-align: center;
-    top: -230px;
-    left: 1250px;
-}
-.cnt{
-    position: relative;
-    text-align: center;
-    left: 0px;
-    top: -40px;
-}
-.cntp{
-    position: relative;
-    top: -47px;
-    left: -30px;
-
-}
-/* ############################################################################# */
 .d34{
-    position: absolute;
-    display: flex;
-    flex-wrap: wrap;
-    /* background-color: rgb(0, 0, 0); */
-    color: rgb(255, 255, 255);
-    height: 300px;
     width: 600px;
-    top: 950px;
-    left: 100px;
+    height: 300px;
+    color: white;
+    position: relative;
+    text-align: justify;
+    position: relative;
 }
 .a4{
-    position: relative;
-    left: 40%;    
+    text-align: center;
 }
 .p10{
-    text-align: justify;
     font-size: 20px;
-}
+    line-height: 30px;
 
+}
 .d35{
-    position: absolute;
-    display: flex;
-    flex-wrap: wrap;
     background-image: url("./food_img/dine_in.jpg");
     background-size: cover;
     border-radius: 30px 80px;
     background-repeat: no-repeat;
     height: 470px;
     width: 600px;
-    top: 850px;
-    left: 800px;
+    position: relative;
+    top: 100px;
 
 }
-
 .d36{
+    position: relative;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    top: 600px;
 }
 
-/* ############################################################################# */
+
+
+/* ################################## Takeaway ########################################### */
+
+.d37{
+    width: 600px;
+    height: 300px;
+    color: white;
+    position: relative;
+    text-align: justify;
+    top: 80px;
+
+}
+.a5{
+    text-align: center;
+}
+.p11{
+    font-size: 20px;
+    line-height: 30px;
+}
+
 .d38{
-    position: absolute;
-    display: flex;
-    flex-wrap: wrap;
-    /* background-color: rgb(0, 0, 0); */
     background-image: url("./food_img/takeaway2.jpg");
     background-size: cover;
     border-radius: 80px 30px;
     background-repeat: no-repeat;
     height: 470px;
     width: 600px;
-    top: 1450px;
-    left: 100px;
-}
-.a5{
     position: relative;
-    left: 40%;    
-}
-.p11{
-    text-align: justify;
-    font-size: 20px;
-}
+    top: 150px;
 
-.d37{
-    position: absolute;
-    display: flex;
-    flex-wrap: wrap;
-    color: rgb(255, 255, 255);
-    height: 300px;
-    width: 600px;
-    top: 1550px;
-    left: 800px;
 
 }
 
 .d39{
-    display: flex;
-    flex-wrap: wrap;
-}
-/* ##################################### Reserve a table ######################################## */
-.d40{
-    position: absolute;
-    display: flex;
-    flex-wrap: wrap;
-    /* background-color: rgb(0, 0, 0); */
-    color: rgb(255, 255, 255);
-    height: 300px;
-    width: 600px;
-    top: 2150px;
-    left: 100px;
-}
-.a6{
     position: relative;
-    left: 30%;    
-}
-.p12{
-    text-align: justify;
-    font-size: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    top: 700px;
+
 }
 
+
+/* ##################################### Reserve a table ######################################## */
+
+.d40{
+    width: 600px;
+    height: 300px;
+    color: white;
+    position: relative;
+    text-align: justify;
+    top: 100px;
+
+}
+.a6{
+    text-align: center;
+}
+.p12{
+    font-size: 20px;
+    line-height: 30px;
+}
 .d41{
-    position: absolute;
-    display: flex;
-    flex-wrap: wrap;
     background-image: url("./food_img/reserv.jpg");
     background-size: cover;
     border-radius: 30px 80px;
     background-repeat: no-repeat;
     height: 470px;
     width: 600px;
-    top: 2050px;
-    left: 800px;
+    position: relative;
+    top: 250px;
+
 
 }
-
 .d42{
+    position: relative;
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    top: 800px;
 }
 
-/* ################################## Animation ####################################### */
- /* {
-  box-sizing: border-box;
-} */
 
-/* body {
-} */
+
+/* ################################## Animation ####################################### */
+
 .d43{
     position: relative;
-    top: 1900px;
+    top: 500px;
 
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
-    width: 100vw;
+    height: 500px;
+    width: 100%;
   
 }
 .an{
@@ -716,18 +551,13 @@ footer {
   overflow: hidden;
   position: relative;
   width: 650px;
-  top: 1900px;
+  top: -150px;
   left: 30%;
 }
 
-/* .an{
-  font-size: 40px;
-  margin-left: 40px;
-} */
-
 .message {
   background-color: yellow;
-  color: #e8e8e8;
+  color: #ffffff;
   display: block;
   font-weight: 900;
   overflow: hidden;
@@ -805,6 +635,73 @@ footer {
     width: 0;
     text-indent: 0;
   }
-} 
+}
+
+/* ********************footer***************************** */
+
+footer {
+    background-color: rgb(116, 110, 110);
+    width: 100%;
+    margin-top: 0px;
+}
+
+.foot{
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.f1{
+    position: relative;
+    width: 400px;
+    height: 200px;
+    text-align: center;
+}
+.abt{
+    position: relative;
+    top: 20px;
+    text-align: center;
+}
+.abtp{
+    position: relative;
+    top:40px;
+}
+.f2{
+    position: relative;
+    width:400px;
+    height: 200px;
+    text-align: center;
+}
+.fls{
+    position: relative;
+    top: 20px;
+}
+.flss{
+    position: relative;
+    text-align: center;
+    top: 40px;
+}
+.f3{
+    position: relative;
+    width:400px;
+    height: 200px;
+    text-align: center;
+}
+.cnt{
+    position: relative;
+    text-align: center;
+    top: 20px;
+}
+.cntp{
+    position: relative;
+    text-align: center;
+    top: 40px;
+
+}
+
 
 
