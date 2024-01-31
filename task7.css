@@ -78,7 +78,7 @@ main {
 }
 
 .d4 {
-    background-image: url("./food_img/food2\ -\ Copy.jpg");
+    background-image: url("./food_img/banner-bg.jpg");
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
@@ -93,7 +93,7 @@ main {
     text-align: center;
     top: 150PX;
     /* color: #f4f4f4; */
-    opacity: 0.5;
+    opacity: 0.8;
     font-size: 100px;
 }
 
